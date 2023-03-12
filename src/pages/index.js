@@ -63,9 +63,9 @@ export default function Home() {
           
             <div className='row mt-3'>
              
-               <CardTaller image="/imagen1.jpg" name="Danza" ruta="/dance" /> 
-               <CardTaller image="/imagen2.jpg" name="Futbol" ruta="/futbol" /> 
-                <CardTaller image="/imagen3.jpg" name="Natación" ruta="/swimming" /> 
+               <CardTaller image="/imagen1.jpg" name="Danza" ruta="/taller/dance" /> 
+               <CardTaller image="/imagen2.jpg" name="Futbol" ruta="/taller/futbol" /> 
+                <CardTaller image="/imagen3.jpg" name="Natación" ruta="/taller/swimming" /> 
               </div>
             </div>
         <div className='py-3 bg-danger p-5 d-flex align-items-center'>
