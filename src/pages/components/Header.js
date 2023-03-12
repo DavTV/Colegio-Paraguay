@@ -26,9 +26,9 @@ const Header = () => {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Talleres</a>
                                 <div class="dropdown-menu bg-secondary">
-                                    <Link className="dropdown-item" href="/dance">Danzas</Link>
-                                    <Link className="dropdown-item" href="/futbol">Futbol</Link>
-                                    <Link className="dropdown-item" href="/swimming">Natación</Link>
+                                    <Link className="dropdown-item" href="/taller/dance">Danzas</Link>
+                                    <Link className="dropdown-item" href="/taller/futbol">Futbol</Link>
+                                    <Link className="dropdown-item" href="/taller/swimming">Natación</Link>
                                 </div>
                             </li>
                         </ul>
