@@ -61,7 +61,7 @@ export default function Home() {
         </div>
         <div className='text-center'>
           
-            <div className='row mt-3'>
+            <div className='row mt-3 mx-0'>
              
                <CardTaller image="/imagen1.jpg" name="Danza" ruta="/taller/dance" /> 
                <CardTaller image="/imagen2.jpg" name="Futbol" ruta="/taller/futbol" /> 
