@@ -15,13 +15,13 @@ const Header = () => {
                         <ul class="navbar-nav me-auto">
                             
                             <li class="nav-item">
-                                <Link className="nav-link" href="/taller/about">Nosotros</Link>
+                                <Link className="nav-link" href="/about">Nosotros</Link>
                             </li>
                             <li class="nav-item">
-                                <Link className="nav-link" href="/taller/matricula">Matrículas 2023</Link>
+                                <Link className="nav-link" href="/matricula">Matrículas 2023</Link>
                             </li>
                             <li class="nav-item">
-                                <Link className="nav-link" href="/taller/news">Noticias</Link>
+                                <Link className="nav-link" href="/news">Noticias</Link>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Talleres</a>
