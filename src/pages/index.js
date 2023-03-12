@@ -20,7 +20,7 @@ export default function Home() {
       <main className="container-fliud overflow-hidden">
         <div className='py-3 bg-danger'></div>
         <div className='bg-image'>
-          <div className='cortina p-5 d-flex align-items-center'>
+          <div className='cortina p-2 d-flex align-items-center'>
             <div className='info container'>
               <h1 className='text-white'>COLEGIO REPUBLICA DE PARAGUAY</h1>
                <h2 className='text-white'>Trabajando para formar un futuro mejor.</h2> 
