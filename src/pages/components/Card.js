@@ -7,8 +7,8 @@ const Card = ({image,titulo,text,column}) => {
                 <Image  src={image}   className='mx-3 imagen-animation' alt="check" width={60} height={60} />
                 {/* <Image */}
             </div>
-            <div className="text-center my-3">
-            <h3>{titulo}</h3>
+            <div className="text-start my-3">
+            <h3 className="text-center">{titulo}</h3>
                 <p>{text}</p>
             </div>
         </div>

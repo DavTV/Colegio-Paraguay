@@ -93,7 +93,31 @@
   text-decoration: none;
   transition: all 0.2s;
 }
-.social{
-  width: 50px !important;
-  height: 50px !important;
+.max-circle{
+  min-width: 100px;
+  min-height: 60px;
+}
+.social:hover{
+  /* animation: zoom 3s alternate infinite; */
+  /* border: #D9534F 1px solid; */
+  /* transform: rotateX(90deg) !important; */
+  transition: all 1s ease-in-out;
+  transform: rotate(360deg);
+}
+
+/* .containerCarNew{
+  max-height: 300px;
+} */
+.imageCarNew{
+  width: 100% !important;
+  height: 100% !important;
+
+}
+.w-70-50 {
+  width: 70%;
+}
+@media (min-width: 768px) {
+    .w-70-50{
+      width: 50%;
+    }
 }

@@ -38,8 +38,8 @@ export default function Home() {
           <hr/>
 
         </div>
-        <div className='row p-5 text-center text-md-start container mx-auto'>
-            <div className='col-12 col-md-4'>
+        <div className='row p-5  text-start container mx-auto'>
+            <div className='col-12 col-md-6'>
                 <h2 className='my-3'>#WELOVEFLEMING</h2>
                 <h3 className='my-3'>TUS HIJOS MERECEN LA MEJOR EDUCACIÓN</h3>
                 <p className='my-3'>Somos un colegio británico, mixto, que atiende alumnos desde los 3 hasta los 18 años de edad. Tenemos más de 30 años de trayectoria y experiencia, los últimos 5 ofreciendo los programas del Bachillerato Internacional: PYP y IBDP. Nuestros alumnos reciben una educación británica, peruana e internacional</p>
@@ -50,7 +50,7 @@ export default function Home() {
                   <li className='list-group-item p-0 my-4 '><Image  src="/check.svg"  className='me-3' alt="check" width={30} height={30} />Texto de ejemplo para el list</li>
                 </ul>
             </div>
-            <div className='col-12 col-md-8'>
+            <div className='col-12 col-md-6'>
               <div className='row'>
                   <Card image="/centro-de-estudiantes.png" titulo="Educación" text="Somos un colegio británico, mixto, que atiende alumnos desde los 3 hasta los 18 años de edad. Tenemos más de 30 años de trayectoria y experiencia, los últimos 5 ofreciendo los programas del Bachillerato Internacional" column="6" />
                   <Card image="/libro-abierto.png" titulo="Enseñanza" text="Somos un colegio británico, mixto, que atiende alumnos desde los 3 hasta los 18 años de edad. Tenemos más de 30 años de trayectoria y experiencia, los últimos 5 ofreciendo los programas del Bachillerato Internacional" column="6" />
@@ -69,8 +69,8 @@ export default function Home() {
               </div>
             </div>
         <div className='py-3 bg-danger p-5 d-flex align-items-center'>
-          <div className='rounded-circle border taller-balon bg-secondary d-flex justify-content-center align-items-center'>
-            <Image  src="/balon.png" width={50} height={50} alt="Talleres de colegio"/>
+          <div className='rounded-circle border  taller-balon bg-secondary d-flex justify-content-center align-items-center max-circle'>
+            <Image className="social" src="/balon.png" width={50} height={50} alt="Talleres de colegio"/>
           </div>
           <div className='mx-4 text-white'>
             <h2 className='text-white'>ACTIVIDADES CO CURRICULARES</h2>

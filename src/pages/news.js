@@ -7,27 +7,27 @@ import Paginator from 'react-hooks-paginator';
 const DataNews =[
     {
         id:1,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
     },
     {
         id:2,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
     },
     {
         id:3,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
     },
     {
         id:4,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
     },
     {
         id:5,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
     },
     {
         id:6,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
     },
     {
         id:7,
@@ -35,39 +35,39 @@ const DataNews =[
     },
     {
         id:8,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
     },
     {
         id:9,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
     },
     {
         id:10,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
     },
     {
         id:11,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
     },
     {
         id:12,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
     },
     {
         id:13,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
     },
     {
         id:14,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
     },
     {
         id:15,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
     },
     {
         id:16,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/centro-de-estudiantes.png"
+        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
     }
 ];
 const News = () => {

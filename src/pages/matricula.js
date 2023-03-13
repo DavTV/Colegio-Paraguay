@@ -9,7 +9,7 @@ const Matricula = () => {
         <div className="container text-center">
             <h2 className="my-5">Matriculate en nuestro ciclo 2023</h2>
             {/* <hr/> */}
-            <form className="my-4 w-50 mx-auto " onSubmit={handleSubmit}>
+            <form className="my-4 w-70-50 mx-auto " onSubmit={handleSubmit}>
                 <h3 className="my-5">Datos del postulante</h3>
                 <hr/>
                 <div className="mb-3 text-start ">
