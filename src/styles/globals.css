@@ -123,3 +123,6 @@
       width: 50%;
     }
 }
+.slider-sizes{
+  max-height: 300px !important;
+}
