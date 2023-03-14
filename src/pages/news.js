@@ -5,21 +5,20 @@ import Paginator from 'react-hooks-paginator';
 
 
 const DataNews =[
-    {
-        id:1,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
+   { id:1,
+    title:"Apertura de matriculas", previo:"El colegio de la Republica de Paraguay inicia la apertura de sus matriculas para este 2023 ...", ruta:"/", image:"/imgNews/matriculas.jpeg"
     },
     {
         id:2,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
+        title:"90 Aniversario del colegio", previo:"El colegio de la Republica celebra su gran recorrido atreves de todos estos años al servicio académico ...", ruta:"/", image:"/imgNews/aniversario.jpeg"
     },
     {
         id:3,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
+        title:"inicio del año escolar", previo:"se tiene previsto que las clases comenzaran a partir del día 20 del presente mes de marzo ...", ruta:"/", image:"/imgNews/inicioClases.jpeg"
     },
     {
         id:4,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
+        title:"Apertura del nuevo taller", previo:"Se cuenta con la inauguración del nuevo taller de tik tok para los mas jóvenes y niños del centro educatico ...", ruta:"/", image:"/imgNews/tallerTikTok.jpeg"
     },
     {
         id:5,

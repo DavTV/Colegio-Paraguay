@@ -75,12 +75,12 @@ export default function Home() {
                 <CardTaller image="/imagen3.jpg" name="Pintura" ruta="/taller/paint" /> 
               </div>
             </div>
-        <div className='py-3 bg-danger  d-flex align-items-center p-2'>
+        <div className='py-3 bg-primary  d-flex align-items-center p-2'>
           <div className='mx-1 rounded-circle   taller-balon bg-balon d-flex justify-content-center align-items-center max-circle'>
             <Image className="social" src="/balon.png" width={50} height={50} alt="Talleres de colegio"/>
           </div>
           <div className='mx-4 text-white'>
-            <h2 className='text-white'>ACTIVIDADES CO CURRICULARES</h2>
+            <h2 className='text-white'>ACTIVIDADES EXTRACURRICULARES</h2>
             <p>Complementando el programa académico</p>
           </div>
         </div>

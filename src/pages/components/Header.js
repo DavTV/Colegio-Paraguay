@@ -23,9 +23,6 @@ const Header = () => {
                             <li class="nav-item">
                                 <Link className="nav-link" href="/matricula">Matrículas 2023</Link>
                             </li>
-                            <li class="nav-item">
-                                <Link className="nav-link" href="/services">Servicios</Link>
-                            </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Talleres</a>
                                 <div class="dropdown-menu bg-secondary">
@@ -33,6 +30,9 @@ const Header = () => {
                                     <Link className="dropdown-item" href="/taller/futbol">Futbol</Link>
                                     <Link className="dropdown-item" href="/taller/paint">Taller de pintura</Link>
                                 </div>
+                            </li>
+                            <li class="nav-item">
+                                <Link className="nav-link" href="/services">Servicios</Link>
                             </li>
                             <li class="nav-item">
                                 <Link className="nav-link" href="/contact">Contáctanos</Link>
