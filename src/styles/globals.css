@@ -93,16 +93,18 @@
   text-decoration: none;
   transition: all 0.2s;
 }
-.max-circle{
+/* .max-circle{
   min-width: 100px;
   min-height: 60px;
-}
+} */
 .social:hover{
   /* animation: zoom 3s alternate infinite; */
   /* border: #D9534F 1px solid; */
   /* transform: rotateX(90deg) !important; */
   transition: all 1s ease-in-out;
   transform: rotate(360deg);
+  /* color:#D9534F !important; */
+  cursor:pointer;
 }
 
 /* .containerCarNew{
