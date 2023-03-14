@@ -1,17 +1,13 @@
 .bg-image{
-  background-image: url("");
+  background-image: url("/bg-index.jpeg");
   height: 60vh;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center bottom;
   background-attachment: fixed;
-  animation: changeBackground 20s linear infinite;
+
 }
-@keyframes changeBackground {
-   0% { background-image: url("/slider2.png")}
-   50% { background-image: url("/slider3.jpg")}
-   100% { background-image: url("/slider1.webp")}
-}
+
 .bg-image .cortina{
   height: 100%;
   width: 100%;
@@ -125,4 +121,10 @@
 }
 .slider-sizes{
   max-height: 300px !important;
+}
+@media(min-width:768px){
+  .bg-balon{
+    background-color: #ffffff;
+  }
+
 }
