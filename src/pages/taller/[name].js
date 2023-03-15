@@ -32,63 +32,70 @@ const talleres = [
         docentes: ["Miguel Giuria", "Rafael García"], costo: 350,
 
 
+    },{
+        nombre:"preuba"
     }
 ]
 const Taller = () => {
     const router = useRouter();
     const { name } = router.query;
-    const [datataller, setDatataller] = useState([]);
+    const [datataller, setDatataller] = useState(talleres);
+    const [detalles, setDetalles] = useState([]);
     const filterTaller=()=>{
-        setDatataller(talleres.filter((taller)=>taller.nombre!=name))
+        
+
+           setDatataller(talleres.filter((taller)=>taller.nombre == name))
+      
     }
     useEffect(()=>{
         filterTaller()
-    },[])
+        console.log(name, datataller)
+    },[name])
     return (
         
 
-        <> 
+        <div> 
         <div className='py-3 bg-danger'></div>
 
-            {talleres.map((taller)=>{
+            {datataller.length > 0 ? datataller.map((taller) => {
                 return (
                     <>
-        <div className="bg-taller" key={taller.id}>
-            <div className="cortina text-white">
-                        <div className="container p-5">
+                        <div className="bg-taller" key={taller.id}>
+                            <div className="cortina text-white">
+                                <div className="container p-5">
 
-                        <h2 className="text-white my-4">Taller de  {taller.nombre}</h2>
-                        <p><strong className="fw-bold text-danger "> <span className="mx-2"><Image  src="/calendar.svg" alt="fecha" width={30} height={30}   /> </span> Fecha:</strong> {taller.fecha}</p>
+                                    <h2 className="text-white my-4">Taller de  {taller.nombre}</h2>
+                                    <p><strong className="fw-bold text-danger "> <span className="mx-2"><Image src="/calendar.svg" alt="fecha" width={30} height={30} /> </span> Fecha:</strong> {taller.fecha}</p>
 
-                        <p><strong className="fw-bold text-danger  "> <span className="mx-2"><Image  src="/people.svg" alt="modalidad" width={30} height={30}   /> </span> Modalidad:</strong> {taller.modalidad}</p>
+                                    <p><strong className="fw-bold text-danger  "> <span className="mx-2"><Image src="/people.svg" alt="modalidad" width={30} height={30} /> </span> Modalidad:</strong> {taller.modalidad}</p>
 
-                        <p><strong className="fw-bold text-danger  "> <span className="mx-2"><Image  src="/alarm.svg" alt="duracion" width={30} height={30}   /> </span> Duración:</strong> {taller.duracion}</p>
+                                    <p><strong className="fw-bold text-danger  "> <span className="mx-2"><Image src="/alarm.svg" alt="duracion" width={30} height={30} /> </span> Duración:</strong> {taller.duracion}</p>
 
-                        <p><strong className="fw-bold  text-danger "> <span className="mx-2"><Image  src="/bell.svg" alt="" width={30} height={30}   /> </span> Horario:</strong> {taller.horario}</p>
+                                    <p><strong className="fw-bold  text-danger "> <span className="mx-2"><Image src="/bell.svg" alt="" width={30} height={30} /> </span> Horario:</strong> {taller.horario}</p>
 
-                        <p><strong className="fw-bold text-danger  "> <span className="mx-2"><Image  src="/house-door.svg" alt="organizador" width={30} height={30}   /> </span> Organiza:</strong> {taller.organiza}</p>
+                                    <p><strong className="fw-bold text-danger  "> <span className="mx-2"><Image src="/house-door.svg" alt="organizador" width={30} height={30} /> </span> Organiza:</strong> {taller.organiza}</p>
 
-                   
-                    
-                        </div>  
-        </div>
-            </div>
-            <div className="container my-5"  key={taller.id+"prueba"}>
-                 <p className="p">{taller.descripcion}</p>
-                <Acoordion objetivos={taller.objetivos} dirigido={taller.dirigido} horariosHombres={taller.horariosHombres} horariosMujeres={taller.horariosMujeres} contenidos={taller.contenidos} docentes={taller.docentes} costo={taller.costo}  />
-            </div>
+
+
+                                </div>
+                            </div>
+
+                            {/* <Acoordion taller={taller}/> */}
+                        </div>
+                       
+
+
                     </>
 
-
                 )
-                
-            })}
 
+            }) : <p>Este taller aún no está disponible.</p>}
 
+         
 
-        </>
+        </div>
 
-    );
+    )
 }
  
 export default Taller;
