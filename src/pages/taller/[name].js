@@ -40,7 +40,7 @@ const Taller = () => {
     const router = useRouter();
     const { name } = router.query;
     const [datataller, setDatataller] = useState(talleres);
-    const [detalles, setDetalles] = useState([]);
+    // const [detalles, setDetalles] = useState([]);    
     const filterTaller=()=>{
         
 
@@ -49,7 +49,7 @@ const Taller = () => {
     }
     useEffect(()=>{
         filterTaller()
-        console.log(name, datataller)
+        // console.log(name, datataller)
     },[name])
     return (
         
@@ -83,7 +83,7 @@ const Taller = () => {
                         <div className="container my-5">
                                 <p>{taller.descripcion}</p>
                             {   
-                                <Acoordion taller={taller}/>
+                                <Acoordion taller={datataller}/>
                                 
                             }
 

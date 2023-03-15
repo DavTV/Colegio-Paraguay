@@ -1,5 +1,9 @@
+
+
 const Acoordion = ({taller}) => {
-    const {objetivos, dirigido,horariosHombres,horariosMujeres,contenidos, docentes, costo} = taller;
+   
+    console.log(taller[0])
+ 
     return ( 
         <div className="accordion accordion-flush" id="accordionFlushExample">
             <div className="accordion-item">
@@ -11,7 +15,7 @@ const Acoordion = ({taller}) => {
                 <div id="flush-collapseOne" className="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div className="accordion-body">
                         <ul>
-                            {objetivos.map((objetivo,index)=>{
+                            {taller[0].objetivos.map((objetivo,index)=>{
                                 return <li className="my-3" key={index+"obj"}>{objetivo}</li>
                             }) }
                         </ul>
@@ -28,10 +32,10 @@ const Acoordion = ({taller}) => {
                     <div className="accordion-body">{
                         <ul>
                             <li>
-                                {dirigido.edades}
+                                {taller[0].dirigido.edades}
                             </li>
                             <li>
-                                {dirigido.nota}
+                                {taller[0].dirigido.nota}
                             </li>
                         </ul>
                     }</div>
@@ -46,14 +50,14 @@ const Acoordion = ({taller}) => {
                 <div id="flush-collapseThree" className="accordion-collapse collapse p-3" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                     <p>Hombre</p>
                     <ul>
-                            {horariosHombres.map((horario,index)=>{
+                            {taller[0].horariosHombres.map((horario,index)=>{
                                 return <li key={index+"horh"}>{horario}</li>
                             })}                        
                     </ul>
 
                     <p>Mujeres</p>
                     <ul>
-                            { horariosMujeres.map((horario,index)=>{
+                            { taller[0].horariosMujeres.map((horario,index)=>{
                                 return <li key={index+"horm"}>{horario}</li>
                             })}                        
                     </ul>
@@ -69,7 +73,7 @@ const Acoordion = ({taller}) => {
                     <div className="accordion-body">{
                         <ul>
                             {
-                                contenidos.map((texto,index)=>{
+                                taller[0].contenidos.map((texto,index)=>{
                                     return    <li key={index+"text"}>
                                         {texto}
                                     </li>
@@ -91,12 +95,12 @@ const Acoordion = ({taller}) => {
                     <div className="accordion-body">{
                         <ul>
                             {
-                                docentes? docentes.map((docente,index)=>{
+                                taller[0].docentes.map((docente,index)=>{
                                     return    <li key={index+"doc"}>
                                         {docente}
                                     </li>
 
-                                }): <p>No hay datos aún.</p>
+                                })
                             }
                             
                         </ul>
@@ -113,7 +117,7 @@ const Acoordion = ({taller}) => {
                     <div className="accordion-body">{
                         <ul>
                              <li>
-                                       S/    {costo}
+                                       S/    {taller[0].costo}
                                     </li>
 
                               

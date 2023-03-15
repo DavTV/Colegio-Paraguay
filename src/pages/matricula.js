@@ -1,3 +1,4 @@
+import Head from "next/head";
 const Matricula = () => {
     const handleSubmit=(e) => {
         e.preventDefault();
