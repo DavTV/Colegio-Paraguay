@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import Acoordion from "../components/Acoordion";
+// import Acoordion from "../components/Acoordion";
 const talleres = [
     {
         id:1,
@@ -40,16 +40,19 @@ const Taller = () => {
     const router = useRouter();
     const { name } = router.query;
     const [datataller, setDatataller] = useState(talleres);
+    console.log(name)
     // const [detalles, setDetalles] = useState([]);    
+    // const [nameUrl, setNameUrl] = useState("");
     const filterTaller=()=>{
         
-
+        
+            // setNameUrl(name)
            setDatataller(talleres.filter((taller)=>taller.nombre == name))
       
     }
     useEffect(()=>{
-        filterTaller()
         // console.log(name, datataller)
+        filterTaller()
     },[name])
     return (
         
@@ -93,11 +96,11 @@ const Taller = () => {
                 </h2>
                 <div id="flush-collapseOne" className="accordion-collapse collapse " aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                     <div className="accordion-body">
-                        <ul>
+                        {/* <ul>
                             {taller.objetivos.map((objetivo,index)=>{
-                                return <li className="my-3" key={index+"obj"}>{objetivo}</li>
+                                <li className="my-3" key={index+"obj"}>{objetivo}</li>
                             }) }
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </div>
@@ -109,14 +112,14 @@ const Taller = () => {
                 </h2>
                 <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
                     <div className="accordion-body">{
-                        <ul>
-                            <li>
-                                {taller.dirigido.edades}
-                            </li>
-                            <li>
-                                {taller.dirigido.nota}
-                            </li>
-                        </ul>
+                        // <ul>
+                        //     <li>
+                        //         {taller.dirigido.edades}
+                        //     </li>
+                        //     <li>
+                        //         {taller.dirigido.nota}
+                        //     </li>
+                        // </ul>
                     }</div>
                 </div>
             </div>
@@ -128,17 +131,17 @@ const Taller = () => {
                 </h2>
                 <div id="flush-collapseThree" className="accordion-collapse collapse p-3" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
                     <p>Hombre</p>
-                    <ul>
+                    {/* <ul>
                             {taller.horariosHombres.map((horario,index)=>{
-                                return <li key={index+"horh"}>{horario}</li>
+                                 return  <li key={index+"horh"}>{horario}</li>
                             })}                        
-                    </ul>
+                    </ul> */}
 
                     <p>Mujeres</p>
                     <ul>
-                            { taller.horariosMujeres.map((horario,index)=>{
-                                return <li key={index+"horm"}>{horario}</li>
-                            })}                        
+                            {/* { taller.horariosMujeres.map((horario,index)=>{
+                                 <li key={index+"horm"}>{horario}</li>
+                            })}                         */}
                     </ul>
                 </div>
             </div>
@@ -150,17 +153,17 @@ const Taller = () => {
                 </h2>
                 <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
                     <div className="accordion-body">{
-                        <ul>
-                            {
-                                taller.contenidos.map((texto,index)=>{
-                                    return    <li key={index+"text"}>
-                                        {texto}
-                                    </li>
+//                         <ul>
+//                             {
+//                                 taller.contenidos.map((texto,index)=>{
+//                                         <li key={index+"text"}>
+//                                         {texto}
+//                                     </li>
 
-})
-}
+// })
+// }
                             
-                        </ul>
+//                         </ul>
                     }</div>
                 </div>
             </div>
@@ -172,17 +175,17 @@ const Taller = () => {
                 </h2>
                 <div id="flush-collapseFive" className="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
                     <div className="accordion-body">{
-                        <ul>
-                            {
-                                taller.docentes.map((docente,index)=>{
-                                    return    <li key={index+"doc"}>
-                                        {docente}
-                                    </li>
+                        // <ul>
+                        //     {
+                        //         taller.docentes.map((docente,index)=>{
+                        //             return    <li key={index+"doc"}>
+                        //                 {docente}
+                        //             </li>
 
-                                })
-                            }
+                        //         })
+                        //     }
                             
-                        </ul>
+                        // </ul>
                     }</div>
                 </div>
             </div>
