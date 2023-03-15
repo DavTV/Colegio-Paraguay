@@ -83,7 +83,7 @@ const Taller = () => {
                         <div className="container my-5">
                                 <p>{taller.descripcion}</p>
                             {   
-                                // <Acoordion taller={datataller}/>
+                                <Acoordion taller={datataller}/>
                                 
                             }
 
