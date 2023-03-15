@@ -2,6 +2,7 @@ import { useState, useEffect
 } from "react";
 import CardNew from "./components/CardNew";
 import Paginator from 'react-hooks-paginator';
+import Head from "next/head";
 
 
 const DataNews =[
@@ -87,6 +88,12 @@ const News = () => {
   }, [offset, data]);
     return ( 
         <>
+         <Head>
+        <title>Noticias</title>
+        <meta name="description" content="Noticias sobre el colegio republica de paraguay" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/colegioLogo.jpeg  " />
+      </Head>
         <div className='py-3 bg-danger'></div>
         <div className="container text-center">
             <h2 className="my-5">Mira lo nuevo</h2>

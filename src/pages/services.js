@@ -2,6 +2,14 @@ import Image from 'next/image'
 
 const Service =()=>{
     return(
+        <>
+        <Head>
+        <title>Servicios</title>
+        <meta name="description" content="Conoce nuestros servicios, colegio republica de paraguay" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/colegioLogo.jpeg  " />
+      </Head>
+       
         <div>
         <div className='py-3 bg-danger'></div>
         <div className="container">
@@ -36,6 +44,7 @@ const Service =()=>{
             </div>
         </div>
         </div>
+        </>
     )
 }
 export default Service;

@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Matricula</title>
-        <meta name="description" content="Matriculate con nosotros, colegio republica de paraguay" />
+        <title>Colegio republica de paraguay</title>
+        <meta name="description" content="Colegio republica de paraguay" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/colegioLogo.jpeg  " />
       </Head>

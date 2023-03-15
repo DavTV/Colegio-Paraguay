@@ -1,3 +1,4 @@
+import Head from "next/head";
 
 const Contact = () => {
     const handleSubmit=(e) => {

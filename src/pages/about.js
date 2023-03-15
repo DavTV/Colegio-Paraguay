@@ -2,6 +2,14 @@ import Image from "next/image";
 import Slider from "./components/Slider";
 const About = () => {
     return ( 
+        <>
+           <Head>
+        <title>Nosotros</title>
+        <meta name="description" content="Mas sobre nosotros, colegio republica de paraguay" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/colegioLogo.jpeg  " />
+      </Head>
+        
         <div>
         <div className='py-3 bg-danger'></div>
 
@@ -47,6 +55,7 @@ const About = () => {
 
             </div>
         </div>
+        </>
      );
 }
  
