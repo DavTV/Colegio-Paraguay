@@ -22,52 +22,53 @@ const DataNews =[
     },
     {
         id:5,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
+        title:"Nuevo taller de pintura", previo:"Se presenta el nuevo taller para nuños de ...", ruta:"/", image:"/imagen3.jpg"
     },
     {
         id:6,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
+        title:"Ganador del mini torneo distrital de futbol", previo:"Nuestra institución tuvo el orgullo de ganar el campeanato ...", ruta:"/", image:"/imagen2.jpg"
     },
+
     {
         id:7,
-        title:"Ganador del concurso de matematicas img1", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
+        title:"Programación de danzas 2023", previo:"Este lunes se dió a conocer los nuevos elencos ...", ruta:"/", image:"/imagen1.jpg"
     },
-    {
-        id:8,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
-    },
-    {
-        id:9,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
-    },
-    {
-        id:10,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
-    },
-    {
-        id:11,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
-    },
-    {
-        id:12,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
-    },
-    {
-        id:13,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
-    },
-    {
-        id:14,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
-    },
-    {
-        id:15,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
-    },
-    {
-        id:16,
-        title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
-    }
+    // {
+    //     id:8,
+    //     title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
+    // },
+    // {
+    //     id:9,
+    //     title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
+    // },
+    // {
+    //     id:10,
+    //     title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
+    // },
+    // {
+    //     id:11,
+    //     title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
+    // },
+    // {
+    //     id:12,
+    //     title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
+    // },
+    // {
+    //     id:13,
+    //     title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
+    // },
+    // {
+    //     id:14,
+    //     title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen3.jpg"
+    // },
+    // {
+    //     id:15,
+    //     title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen1.jpg"
+    // },
+    // {
+    //     id:16,
+    //     title:"Ganador del concurso de matematicas", previo:"El alumno xxxxx gano el concurso de matematicas realizado el pasado 3 de ...", ruta:"/", image:"/imagen2.jpg"
+    // }
 ];
 const News = () => {
     // const [news, setNews] = useState(DataNews);

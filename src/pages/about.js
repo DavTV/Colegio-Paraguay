@@ -25,7 +25,7 @@ const About = () => {
                     </p> */}
                 </div>
                 <div className="col-12 col-md-5  d-flex justify-content-center">
-                    <Image  src="/img-about.jpg" width={300} height={400} className="imagen-about " />
+                    <Image  src="/img-about.jpg" width={300} height={400} className="imagen-about " alt="bienvenidos al colegio republica del paraguay" />
                 </div>
             </div>
             <hr/>

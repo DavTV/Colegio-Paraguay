@@ -5,6 +5,8 @@ const Contact = () => {
         alert("Formulario Enviado con éxito!");
     }
     return ( 
+        <>
+        <div className='py-3 bg-danger'></div>
         <form className="my-4 w-70-50 mx-auto " onSubmit={handleSubmit}>      
         <h3 className="my-5 text-center">Envianos un correo</h3>
         <hr/>
@@ -31,6 +33,7 @@ const Contact = () => {
                     <button className="btn btn-danger">Enviar</button>
                 </div>
             </form>
+        </>
      );
 }
  

@@ -8,7 +8,7 @@
 
 }
 
-.bg-image .cortina{
+.cortina{
   height: 100%;
   width: 100%;
   background-color: rgba(0, 0, 10, .4);
@@ -127,4 +127,16 @@
     background-color: #ffffff;
   }
 
+}
+.bg-taller{
+  background-image: url("/tallerFutbol.jpg");
+  background-size: cover;
+
+}
+@media (max-width:768px) {
+  
+  .text-activities{
+    font-size: 20px !important;
+  
+  }
 }

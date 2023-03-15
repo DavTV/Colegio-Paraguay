@@ -7,7 +7,7 @@ const Service =()=>{
         <div className="container">
             <h2 className="text-center my-4">Nuestros Servicios</h2>
             <hr/>
-            <div className="row my-4">
+            <div className="row my-4 align-items-center">
                 <div className="col-12 col-md-6">
                      <Image  src ="/slider4.jpeg" width={0} height={0}  layout='responsive' alt="..." />   
                 </div>
@@ -23,15 +23,15 @@ const Service =()=>{
             <hr/>
         {/* <div className='py-2 bg-primary'></div> */}
 
-            <div className="row my-4">
+            <div className="row my-4 flex-md-row-reverse align-items-center">
+                <div className="col-12 col-md-6">
+                     <Image  src ="/slider5.jpeg" width={0} height={0}  layout='responsive' alt="..." />   
+                </div>
                 <div className="col-12 col-md-6">
                     <h2 className="my-4">Servicios y registros académicos</h2>
                     <p>
                     Nos encargamos de emitir documentos oficiales de la Escuela de Postgrado, asimismo validamos la situación académica de los alumnos y egresados a través de Atención Alumno EPG. Consultas al correo: <strong className="text-danger fw-bold">atencionalumnoepg@usil.edu.pe</strong> ​ 
                     </p>
-                </div>
-                <div className="col-12 col-md-6">
-                     <Image  src ="/slider5.jpeg" width={0} height={0}  layout='responsive' alt="..." />   
                 </div>
             </div>
         </div>

@@ -29,7 +29,7 @@ const Matricula = () => {
                 <label className="form-label ">Sexo <span className="text-danger">*</span></label>
                 <div class="form-check">
                     <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" / >
-                    <label class="form-check-label" for="flexRadioDefault1">
+                    <label class="form-check-label" htmlFor="flexRadioDefault1">
                         Masculino
                 </label>
                 </div>
@@ -44,20 +44,20 @@ const Matricula = () => {
                     <label className="form-label">postulante a <span className="text-danger">*</span></label>
                     <select class="form-select" aria-label="Default select example">
                         <option selected>Abrir y seleccionar</option>
-                        <option value="inicial-3">inicial - 3 años</option>
-                        <option value="inicial-4">inicial - 4 años Pre-K</option>
-                        <option value="inicial-5">inicial - 5 años Kinder</option>
-                        <option value="primaria-1">primaria - primer grado</option>
-                        <option value="primaria-2">primaria - segundo grado</option>
-                        <option value="primaria-3">primaria - tercero grado</option>
-                        <option value="primaria-4">primaria - cuarto grado</option>
-                        <option value="primaria-5">primaria - quinto grado</option>
-                        <option value="primaria-6">primaria - sexto grado</option>
-                        <option value="secundaria-1">secundaria - primer grado</option>
-                        <option value="secundaria-2">secundaria - segundo grado</option>
-                        <option value="secundaria-3">secundaria - tercero grado</option>
-                        <option value="secundaria-4">secundaria - cuarto grado</option>
-                        <option value="secundaria-5">secundaria - quinto grado</option>
+                        <option DefaultValue="inicial-3">inicial - 3 años</option>
+                        <option DefaultValue="inicial-4">inicial - 4 años Pre-K</option>
+                        <option DefaultValue="inicial-5">inicial - 5 años Kinder</option>
+                        <option DefaultValue="primaria-1">primaria - primer grado</option>
+                        <option DefaultValue="primaria-2">primaria - segundo grado</option>
+                        <option DefaultValue="primaria-3">primaria - tercero grado</option>
+                        <option DefaultValue="primaria-4">primaria - cuarto grado</option>
+                        <option DefaultValue="primaria-5">primaria - quinto grado</option>
+                        <option DefaultValue="primaria-6">primaria - sexto grado</option>
+                        <option DefaultValue="secundaria-1">secundaria - primer grado</option>
+                        <option DefaultValue="secundaria-2">secundaria - segundo grado</option>
+                        <option DefaultValue="secundaria-3">secundaria - tercero grado</option>
+                        <option DefaultValue="secundaria-4">secundaria - cuarto grado</option>
+                        <option DefaultValue="secundaria-5">secundaria - quinto grado</option>
                     </select>
                 </div>
                 <h3 className="my-5">Datos del apoderado</h3>

@@ -79,8 +79,8 @@ export default function Home() {
           <div className='mx-1 rounded-circle   taller-balon bg-balon d-flex justify-content-center align-items-center max-circle'>
             <Image className="social" src="/balon.png" width={50} height={50} alt="Talleres de colegio"/>
           </div>
-          <div className='mx-4 text-white'>
-            <h2 className='text-white'>ACTIVIDADES EXTRACURRICULARES</h2>
+          <div className='mx-4 text-white '>
+            <h2 className='text-white text-activities'>ACTIVIDADES EXTRACURRICULARES</h2>
             <p>Complementando el programa académico</p>
           </div>
         </div>
