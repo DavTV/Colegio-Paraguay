@@ -1,4 +1,5 @@
 import Head from "next/head";
+import VideoYoutube from "./components/VideoYoutube";
 const Matricula = () => {
     const handleSubmit=(e) => {
         e.preventDefault();
@@ -14,8 +15,12 @@ const Matricula = () => {
       </Head>
         <div className='py-3 bg-danger'></div>
         <div className="container text-center">
+
             <h2 className="my-5">Matriculate en nuestro ciclo 2023</h2>
+            <VideoYoutube/>
+            
             {/* <hr/> */}
+            <h2>Te ayudamos a matricularte</h2>           
             <form className="my-4 w-70-50 mx-auto " onSubmit={handleSubmit}>
                 <h3 className="my-5">Datos del postulante</h3>
                 <hr/>
@@ -42,14 +47,14 @@ const Matricula = () => {
                 </div>
                 <div class="form-check">
                 <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"  />
-                <label class="form-check-label" for="flexRadioDefault2">
+                <label class="form-check-label" htmlFor="flexRadioDefault2">
                     Femenino
                 </label>
                 </div>
                 </div>
                 <div className="mb-3 text-start ">
                     <label className="form-label">postulante a <span className="text-danger">*</span></label>
-                    <select class="form-select" aria-label="Default select example">
+                    <select className ="form-select" aria-label="Default select example">
                         <option selected>Abrir y seleccionar</option>
                         <option DefaultValue="inicial-3">inicial - 3 años</option>
                         <option DefaultValue="inicial-4">inicial - 4 años Pre-K</option>
@@ -96,6 +101,7 @@ const Matricula = () => {
         </div>
     
     
+
     </>
      );
 }
