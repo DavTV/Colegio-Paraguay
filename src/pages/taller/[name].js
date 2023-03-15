@@ -38,7 +38,7 @@ const talleres = [
 ]
 const Taller = () => {
     const router = useRouter();
-    const { name } = router.query || "futbol";
+    const { name } = router.query;
     const [datataller, setDatataller] = useState(talleres);
     // const [detalles, setDetalles] = useState([]);    
     const filterTaller=()=>{
@@ -83,7 +83,7 @@ const Taller = () => {
                         <div className="container my-5">
                                 <p>{taller.descripcion}</p>
                             {   
-                                <Acoordion taller={datataller}/>
+                                // <Acoordion taller={datataller}/>
                                 
                             }
 
