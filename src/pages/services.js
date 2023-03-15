@@ -20,7 +20,7 @@ const Service =()=>{
                      <Image  src ="/slider4.jpeg" width={0} height={0}  layout='responsive' alt="..." />   
                 </div>
                 <div className="col-12 col-md-6">
-                    <h2 className="my-4">Atención al alumno EPG</h2>
+                    <h2 className="my-4">Atención al alumno - EPG</h2>
                     <p>
                     Nos encargamos de mejorar la experiencia de nuestros alumnos y egresados atendiendo consultas, dudas y solicitudes de documentos y trámites a través del buzón de atención EPG y la central telefónica de atención alumno. ​ 
                     </p>
