@@ -38,7 +38,7 @@ const talleres = [
 ]
 const Taller = () => {
     const router = useRouter();
-    const { name } = router.query;
+    const { name } = router.query||"";
     const [datataller, setDatataller] = useState(talleres);
     console.log(name)
     // const [detalles, setDetalles] = useState([]);    
