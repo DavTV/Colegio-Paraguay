@@ -2,8 +2,7 @@
 
 const Acoordion = ({taller}) => {
    
-    console.log(taller[0])
- 
+    
 //     return ( 
 //         <div className="accordion accordion-flush" id="accordionFlushExample">
 //             <div className="accordion-item">
