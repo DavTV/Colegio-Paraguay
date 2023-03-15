@@ -79,8 +79,14 @@ const Taller = () => {
 
                                 </div>
                             </div>
+                        </div>
+                        <div className="container my-5">
+                                <p>{taller.descripcion}</p>
+                            {   
+                                <Acoordion taller={taller}/>
+                                
+                            }
 
-                            {/* <Acoordion taller={taller}/> */}
                         </div>
                        
 
@@ -89,7 +95,7 @@ const Taller = () => {
 
                 )
 
-            }) : <p>Este taller aún no está disponible.</p>}
+            }) :<div className="text-center my-5"> <p>Este taller aún no está disponible.</p></div>}
 
          
 

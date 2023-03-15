@@ -69,13 +69,13 @@ const Acoordion = ({taller}) => {
                     <div className="accordion-body">{
                         <ul>
                             {
-                               contenidos.map((texto,index)=>{
+                                contenidos.map((texto,index)=>{
                                     return    <li key={index+"text"}>
                                         {texto}
                                     </li>
 
-                                })
-                            }
+})
+}
                             
                         </ul>
                     }</div>
