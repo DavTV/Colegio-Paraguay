@@ -1,10 +1,10 @@
 import Image from 'next/image'
-
+import Head from 'next/head';
 const Service =()=>{
     return(
         <>
         <Head>
-        <title>Servicios</title>
+        <title>Talleres</title>
         <meta name="description" content="Conoce nuestros servicios, colegio republica de paraguay" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/colegioLogo.jpeg  " />
