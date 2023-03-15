@@ -5,6 +5,12 @@ const Matricula = () => {
     }
     return ( 
     <>
+         <Head>
+        <title>Matriculate</title>
+        <meta name="description" content="Contáctate con el colegio republica de paraguay" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/colegioLogo.jpeg  " />
+      </Head>
         <div className='py-3 bg-danger'></div>
         <div className="container text-center">
             <h2 className="my-5">Matriculate en nuestro ciclo 2023</h2>
