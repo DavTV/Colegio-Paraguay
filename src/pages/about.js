@@ -19,7 +19,7 @@ const About = () => {
             <hr/>
             <div className="row my-5 px-3 text-start ">
                 <div className="col-12 col-md-6 my-4">
-                    <h3 className="text-center">!Bienvenidos a nuestro colegio¡</h3>
+                    <h3 className="text-center">Bienvenidos a nuestro colegio</h3>
                     <p>
                     La Institución educativa Colegio 1146 Republica Del Paraguay se sitúa en el lugar de Lima Cercado, provincia de Lima, ésta institución depende de la UGEL 03 BREÑA que revisa la institución educativa, y esta última pertenece a la Dirección regional de educación DRE LIMA METROPOLITANA.
 

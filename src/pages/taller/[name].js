@@ -2,11 +2,12 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Head from "next/head";
+// import { useRef } from "react";
 // import Acoordion from "../components/Acoordion";
 const talleres = [
     {
         id:1,
-        nombre: "futbol", fecha: "06 de enero de 2023", modalidad: "Presencial", duracion: "23 horas", horario: "De lunes a viernes en diversos horarios", organiza: "Deportes PUCP", imagenFondo: "...", descripcion: "El trabajo, la disciplina, el orden táctico y la predisposición del juego en conjunto marcará la diferencia frente al rival. El gol es la culminación, el logro y la máxima expresión del trabajo en conjunto de todas las líneas de ataque y defensa de un equipo. Es de funcionamiento dinámico, la práctica del deporte como formación contribuye al mejoramiento de todas las capacidades físicas, ayuda al empoderamiento del alumno y a la identificación plena con su camiseta a la que represent", objetivos: [
+        nombre: "futbol", fecha: "06 de enero de 2023", modalidad: "Presencial", duracion: "23 horas", horario: "De lunes a viernes en diversos horarios", organiza: "Deportes PUCP", imagenFondo: "/tallerFutbol.jpg", descripcion: "El trabajo, la disciplina, el orden táctico y la predisposición del juego en conjunto marcará la diferencia frente al rival. El gol es la culminación, el logro y la máxima expresión del trabajo en conjunto de todas las líneas de ataque y defensa de un equipo. Es de funcionamiento dinámico, la práctica del deporte como formación contribuye al mejoramiento de todas las capacidades físicas, ayuda al empoderamiento del alumno y a la identificación plena con su camiseta a la que represent", objetivos: [
             "Mejorar a través del ejercicio físico sus capacidades técnico – tácticas aplicándose en partidos de competencia o amistoso",
             "Reforzar y aplicar los valores relacionados a trabajar en equipo: solidaridad, compartir, etc.",
             "Generar la socialización sana y educada frente al resultado de los partidos amistosos, teniendo como fin el juego limpio"
@@ -34,33 +35,55 @@ const talleres = [
 
 
     },{
-        nombre:"preuba"
+        id:2,
+        nombre: "dance", fecha: "06 de enero de 2023", modalidad: "Presencial", duracion: "20 horas", horario: "De sábado a domingo", organiza: "Deportes PUCP", imagenFondo: "/tallerDanza.jpg", descripcion: "El trabajo, la disciplina, el orden táctico y la predisposición del juego en conjunto marcará la diferencia frente al rival. Ayuda al añumno a desarrolar habilidades dentro de un entorno acuatico, los cuales le puden ser muy útiles en momentos de supervivencia.", objetivos: [
+            "Mejorar a través del ejercicio físico sus capacidades técnico.",
+            "Reforzar y aplicar los valores relacionados a trabajar en equipo: solidaridad, compartir, etc."
+        ],
+        dirigido: {
+             edades: "12 a 15 años" ,
+            nota: "" 
+            },
+        horariosHombres: [
+            "De 12 a 13 años: 12:00 m. a 1:00 p.m.", "De 13 a 15 años: 10:00 a.m. a 11:00 a.m."
+        ],
+        horariosMujeres: [
+            "De 12 a 13 años: 09:00 a.m. a 10:00 a.m.", "De 13 a 15 años: 10:00 a.m. a 11:00 a.m."
+        ],
+        contenidos: [
+            "Aprender a flotar.",
+            "Movimientos básicos de natación",
+            "Nado hacia atrás"
+        ],
+        docentes: ["Luis Bernaque", "José Montalvo"], costo: 450,
+
+
     }
 ]
 const Taller = () => {
     const router = useRouter();
     const { name } = router.query||"";
     const [datataller, setDatataller] = useState([]);
-    console.log(name)
+    // console.log(name)
+    // const bgRef = useRef();
     // const [detalles, setDetalles] = useState([]);    
     // const [nameUrl, setNameUrl] = useState("");
     const filterTaller=()=>{
-        
-        
-            // setNameUrl(name)
+
            setDatataller(talleres.filter((taller)=>taller.nombre == name))
-      
-    }
-    useEffect(()=>{
-        filterTaller()
-    },[name])
-    console.log(datataller)
+        }
+        useEffect(()=>{
+            filterTaller()
+            
+            // bgRef.current.style.backgroundImage= "/tallerFutbol.jpg";
+            // console.log(bgRef.current)
+        },[name])
     return (
 
         // <h2>{name}</h2>
         <>
             <Head>
-                <title>Taller de {name}</title>
+                <title>Talleres</title>
                 <meta name="description" content="Conoce nuestros servicios, colegio republica de paraguay" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/colegioLogo.jpeg  " />
@@ -71,7 +94,9 @@ const Taller = () => {
                 {datataller.length > 0 ? datataller.map((taller) => {
                     return (
                         <>
-                            <div className="bg-taller" key={taller.id}>
+                            <div className="bg-taller" style={{ 
+                                backgroundImage: `url( ${taller.imagenFondo})` 
+                                }} key={taller.id}>
                                 <div className="cortina text-white">
                                     <div className="container p-5">
 
@@ -124,9 +149,12 @@ const Taller = () => {
                                                         <li>
                                                             {taller.dirigido.edades}
                                                         </li>
+                                                        {
+                                                            taller.dirigido.nota !="" && 
                                                         <li>
                                                             {taller.dirigido.nota}
                                                         </li>
+                                                        }
                                                     </ul>
                                                 }</div>
                                             </div>

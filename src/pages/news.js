@@ -11,7 +11,7 @@ const DataNews =[
     },
     {
         id:2,
-        title:"90 Aniversario del colegio", previo:"El colegio de la Republica celebra su gran recorrido atreves de todos estos años al servicio académico ...", ruta:"/", image:"/imgNews/aniversario.jpeg"
+        title:"96 Aniversario del colegio", previo:"El colegio de la Republica celebra su gran recorrido atreves de todos estos años al servicio académico ...", ruta:"/", image:"/imgNews/aniversario.jpeg"
     },
     {
         id:3,
