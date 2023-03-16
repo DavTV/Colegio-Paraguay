@@ -7,7 +7,7 @@ import Head from "next/head";
 const talleres = [
     {
         id:1,
-        nombre: "futbol", fecha: "06 de enero de 2023", modalidad: "Presencial", duracion: "23 horas", horario: "De lunes a viernes en diversos horarios", organiza: "Deportes PUCP", imagenFondo: "/tallerFutbol.jpg", descripcion: "El trabajo, la disciplina, el orden táctico y la predisposición del juego en conjunto marcará la diferencia frente al rival. El gol es la culminación, el logro y la máxima expresión del trabajo en conjunto de todas las líneas de ataque y defensa de un equipo. Es de funcionamiento dinámico, la práctica del deporte como formación contribuye al mejoramiento de todas las capacidades físicas, ayuda al empoderamiento del alumno y a la identificación plena con su camiseta a la que represent", objetivos: [
+        nombre: "futbol", fecha: "06 de enero de 2023", modalidad: "Presencial", duracion: "23 horas", horario: "De Lunes a Viernes en diversos horarios", organiza: "Deportes PUCP", imagenFondo: "/tallerFutbol.jpg", descripcion: "El trabajo, la disciplina, el orden táctico y la predisposición del juego en conjunto marcará la diferencia frente al rival. El gol es la culminación, el logro y la máxima expresión del trabajo en conjunto de todas las líneas de ataque y defensa de un equipo. Es de funcionamiento dinámico, la práctica del deporte como formación contribuye al mejoramiento de todas las capacidades físicas, ayuda al empoderamiento del alumno y a la identificación plena con su camiseta a la que represent", objetivos: [
             "Mejorar a través del ejercicio físico sus capacidades técnico – tácticas aplicándose en partidos de competencia o amistoso",
             "Reforzar y aplicar los valores relacionados a trabajar en equipo: solidaridad, compartir, etc.",
             "Generar la socialización sana y educada frente al resultado de los partidos amistosos, teniendo como fin el juego limpio"
@@ -36,7 +36,7 @@ const talleres = [
 
     },{
         id:2,
-        nombre: "dance", fecha: "06 de enero de 2023", modalidad: "Presencial", duracion: "20 horas", horario: "De sábado a domingo", organiza: "Deportes PUCP", imagenFondo: "/tallerDanza.jpg", descripcion: "El trabajo, la disciplina, el orden táctico y la predisposición del juego en conjunto marcará la diferencia frente al rival. Ayuda al añumno a desarrolar habilidades dentro de un entorno acuatico, los cuales le puden ser muy útiles en momentos de supervivencia.", objetivos: [
+        nombre: "dance", fecha: "06 de enero de 2023", modalidad: "Presencial", duracion: "20 horas", horario: "De Sábado a Domingo", organiza: "Deportes PUCP", imagenFondo: "/tallerDanza.jpg", descripcion: "El trabajo, la disciplina, el orden táctico y la predisposición del juego en conjunto marcará la diferencia frente al rival. Ayuda al alumno a desarrolar habilidades dentro de un entorno acuatico, los cuales le puden ser muy útiles en momentos de supervivencia.", objetivos: [
             "Mejorar a través del ejercicio físico sus capacidades técnico.",
             "Reforzar y aplicar los valores relacionados a trabajar en equipo: solidaridad, compartir, etc."
         ],
@@ -58,7 +58,35 @@ const talleres = [
         docentes: ["Luis Bernaque", "José Montalvo"], costo: 450,
 
 
-    }
+    },
+    
+    
+    ,{
+        id:3,
+        nombre: "paint", fecha: "06 de enero de 2023", modalidad: "Presencial y virtual", duracion: "15 horas", horario: "De Lunes a Sábado", organiza: "Deportes Intitucionales", imagenFondo: "/tallerPaint.jpg", descripcion: "El trabajo, la disciplina, el orden táctico y la predisposición del juego en conjunto marcará la diferencia frente al rival. Ayuda al alumno a desarrolar habilidades artisticas.", objetivos: [
+            "Mejorar la creatividad de cada alumno.",
+            "Incrementar el interes por el arte en los alumnos."
+        ],
+        dirigido: {
+             edades: "5 a 15 años" ,
+            nota: "" 
+            },
+        horariosHombres: [
+            "De 5 a 10 años: 1:00 m. a 3:00 p.m.", "De 11 a 15 años: 10:00 a.m. a 11:00 a.m."
+        ],
+        horariosMujeres: [
+            "De 5 a 10 años: 09:00 a.m. a 10:00 a.m.", "De 11 a 15 años: 10:00 a.m. a 11:00 a.m."
+        ],
+        contenidos: [
+            "Fundamentos para pintar.",
+            "Fundamentos para dibujo.",
+            "Creación de cuadros de arte. "
+        ],
+        docentes: ["Salome Asmat", "Ricardo Sanchez"], costo: 400,
+
+
+    },
+    
 ]
 const Taller = () => {
     const router = useRouter();
