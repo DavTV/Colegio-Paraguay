@@ -19,15 +19,15 @@ const DataNews =[
     },
     {
         id:4,
-        title:"Apertura del nuevo taller", previo:"Se cuenta con la inauguración del nuevo taller de tik tok para los mas jóvenes y niños del centro educatico ...", ruta:"/", image:"/imgNews/tallerTikTok.jpeg"
+        title:"Apertura del nuevo taller", previo:"Se cuenta con la inauguración del nuevo taller de tik tok para los más jóvenes y niños del centro educativo ...", ruta:"/", image:"/imgNews/tallerTikTok.jpeg"
     },
     {
         id:5,
-        title:"Nuevo taller de pintura", previo:"Se presenta el nuevo taller para nuños de ...", ruta:"/", image:"/imagen3.jpg"
+        title:"Nuevo taller de pintura", previo:"Se presenta el nuevo taller para niños de ...", ruta:"/", image:"/imagen3.jpg"
     },
     {
         id:6,
-        title:"Ganador del mini torneo distrital de futbol", previo:"Nuestra institución tuvo el orgullo de ganar el campeanato ...", ruta:"/", image:"/imagen2.jpg"
+        title:"Campeonato distrital de futbol", previo:"Nuestra institución tuvo el orgullo de ganar el campeanato ...", ruta:"/", image:"/imagen2.jpg"
     },
 
     {

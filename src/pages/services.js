@@ -17,7 +17,7 @@ const Service =()=>{
             <hr/>
             <div className="row my-4 align-items-center">
                 <div className="col-12 col-md-6">
-                     <Image  src ="/slider4.jpeg" width={0} height={0}  layout='responsive' alt="..." />   
+                     <Image  src ="/servicio2.jpg" width={0} height={0}  layout='responsive' alt="..." />   
                 </div>
                 <div className="col-12 col-md-6">
                     <h2 className="my-4">Atención al alumno - EPG</h2>
@@ -33,7 +33,7 @@ const Service =()=>{
 
             <div className="row my-4 flex-md-row-reverse align-items-center">
                 <div className="col-12 col-md-6">
-                     <Image  src ="/slider5.jpeg" width={0} height={0}  layout='responsive' alt="imagenServicios" />   
+                     <Image  src ="/servicio1.jpg" width={0} height={0}  layout='responsive' alt="imagenServicios" />   
                 </div>
                 <div className="col-12 col-md-6">
                     <h2 className="my-4">Servicios y registros académicos</h2>
